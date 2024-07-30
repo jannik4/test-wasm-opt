@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Install wasm-opt
         uses: jaxxstorm/action-install-gh-release@v1.12.0
-          with:
+        with:
           repo: WebAssembly/binaryen
           platform: linux
           arch: x86_64
