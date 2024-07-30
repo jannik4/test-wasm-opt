@@ -19,6 +19,7 @@ jobs:
         uses: jaxxstorm/action-install-gh-release@v1.12.0
         with:
           repo: WebAssembly/binaryen
+          tag: version_118
           binaries-location: binaryen-version_118/bin
           platform: linux
           arch: x86_64
