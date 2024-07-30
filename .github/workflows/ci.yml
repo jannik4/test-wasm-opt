@@ -19,6 +19,7 @@ jobs:
         uses: jaxxstorm/action-install-gh-release@v1.12.0
         with:
           repo: WebAssembly/binaryen
+          binaries-location: bin
           platform: linux
           arch: x86_64
       - name: Check available
